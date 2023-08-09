@@ -6,7 +6,7 @@ module.exports = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: 'mockfly-js-sdk.js',
+    filename: 'mockfly-client-js-sdk.js',
     library: 'Mockfly',
     libraryTarget: 'umd',
     libraryExport: 'default',

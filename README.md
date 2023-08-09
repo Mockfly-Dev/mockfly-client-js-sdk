@@ -1,39 +1,39 @@
-## `mockfly-js-sdk` SDK Documentation
+## `mockfly-client-js-sdk` SDK Documentation
 
 ### General Overview:
 
-The `mockfly-js-sdk` SDK provides a simple interface to interact with the Mockfly service. The SDK allows you to identify users and retrieve flags based on a user's evaluation key.
+The `mockfly-client-js-sdk` SDK provides a simple interface to interact with the Mockfly service. The SDK allows you to identify users and retrieve flags based on a user's evaluation key.
 
 ### Getting Started:
 
-To begin using `mockfly-js-sdk`, you need to install it. (Note: I'm assuming that the package is available on npm).
+To begin using `mockfly-client-js-sdk`, you need to install it. (Note: I'm assuming that the package is available on npm).
 
 ```bash
-npm install mockfly-js-sdk
+npm install mockfly-client-js-sdk
 ```
 
 or
 
 ```bash
-yarn add  mockfly-js-sdk
+yarn add  mockfly-client-js-sdk
 ```
 
 or
 
 ```html
-<script src="node_modules/mockfly-js-sdk/lib/mockfly-js-sdk.js"></script>
+<script src="node_modules/mockfly-client-js-sdk/lib/mockfly-client-js-sdk.js"></script>
 ```
 
 Then, you can import it into your project:
 
 ```javascript
-const Mockfly = require('mockfly-js-sdk')
+const Mockfly = require('mockfly-client-js-sdk')
 ```
 
 or
 
 ```javascript
-import Mockfly from 'mockfly-js-sdk'
+import Mockfly from 'mockfly-client-js-sdk'
 ```
 
 If you have used the script tag to import it, you already have it as a global object in Mockfly.
@@ -99,4 +99,4 @@ The SDK has built-in validations and will throw errors in the following cases:
 
 ### Conclusion:
 
-The `mockfly-js-sdk` SDK simplifies interaction with the Mockfly service from browsers. Ensure to handle potential errors and use the `identify` method before making calls to `getFlag`. Always remember that the `authHeader` value should be derived from the private API key of your project.
+The `mockfly-client-js-sdk` SDK simplifies interaction with the Mockfly service from browsers. Ensure to handle potential errors and use the `identify` method before making calls to `getFlag`. Always remember that the `authHeader` value should be derived from the private API key of your project.

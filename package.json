@@ -1,8 +1,8 @@
 {
-  "name": "mockfly-js-sdk",
+  "name": "mockfly-client-js-sdk",
   "version": "1.0.0",
   "description": "Mockfly JS SDK",
-  "main": "lib/mockfly-js-sdk.js",
+  "main": "lib/mockfly-client-js-sdk.js",
   "scripts": {
     "test": "jest src/",
     "tdd": "jest src/ --watch",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mockfly-Dev/mockfly-js-sdk.git"
+    "url": "git+https://github.com/Mockfly-Dev/mockfly-client-js-sdk.git"
   },
   "author": "Mockfly",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Mockfly-Dev/mockfly-js-sdk/issues"
+    "url": "https://github.com/Mockfly-Dev/mockfly-client-js-sdk/issues"
   },
-  "homepage": "https://github.com/Mockfly-Dev/mockfly-js-sdk#readme",
+  "homepage": "https://github.com/Mockfly-Dev/mockfly-client-js-sdk#readme",
   "dependencies": {
     "axios": "^1.4.0"
   },
