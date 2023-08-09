@@ -1,0 +1,46 @@
+{
+  "name": "mockfly-js-sdk",
+  "version": "1.0.0",
+  "description": "Mockfly JS SDK",
+  "main": "lib/mockfly-js-sdk.js",
+  "scripts": {
+    "test": "jest src/",
+    "tdd": "jest src/ --watch",
+    "build": "webpack --config webpack.config.js",
+    "linter": "prettier --check ./src",
+    "prepublish": "npm run build",
+    "prepare": "husky install",
+    "coverage": "jest src/ --coverage src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mockfly-Dev/mockfly-js-sdk.git"
+  },
+  "author": "Mockfly",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Mockfly-Dev/mockfly-js-sdk/issues"
+  },
+  "homepage": "https://github.com/Mockfly-Dev/mockfly-js-sdk#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@testing-library/dom": "^8.14.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "babel-plugin-inline-dotenv": "^1.7.0",
+    "core-js": "^3.21.1",
+    "dotenv": "^16.0.1",
+    "husky": "^8.0.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.7.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
