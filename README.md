@@ -99,4 +99,4 @@ The SDK has built-in validations and will throw errors in the following cases:
 
 ### Conclusion:
 
-The `mockfly-js-sdk` SDK simplifies interaction with the Mockfly service from Node.js applications. Ensure to handle potential errors and use the `identify` method before making calls to `getFlag`. Always remember that the `authHeader` value should be derived from the private API key of your project.
+The `mockfly-js-sdk` SDK simplifies interaction with the Mockfly service from browsers. Ensure to handle potential errors and use the `identify` method before making calls to `getFlag`. Always remember that the `authHeader` value should be derived from the private API key of your project.
